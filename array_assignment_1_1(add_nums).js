@@ -14,3 +14,5 @@ function twoIndices(nums, target) {
 }
 
 console.log(twoIndices(numArr, target));
+
+// the above algorithm has  an if statement and a variable declaration which are constant time. It has a nested loop inside of another loop hence it has big O of n^2 time complexity
